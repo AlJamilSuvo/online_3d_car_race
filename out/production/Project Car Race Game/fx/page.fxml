@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.Controller">
+   <children>
+      <ImageView fx:id="image" fitHeight="360.0" fitWidth="740.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+
+      </ImageView>
+      <Button fx:id="join" layoutX="54.0" layoutY="321.0" mnemonicParsing="false" onAction="#joinGameAction" style="-fx-background-color: linear-gradient(#dc9656,#ab4642);" text="Join Game" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="createGame" layoutX="577.0" layoutY="324.0" mnemonicParsing="false" onAction="#createGameAction" style="-fx-background-color: linear-gradient(#158cd6,#1b1313);;" text="Create Game" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+        </Button>
+   </children>
+</AnchorPane>
